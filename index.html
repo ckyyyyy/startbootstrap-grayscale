@@ -73,7 +73,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-white mb-4">About me</h2>
-          <p class="text-white-50">Hello there~ I am cky. Cky is my initial name and my real name is Angela. I love music because it heals my heart. Enjoy my performance here →
+          <p class="text-white-50">Hello there~ I am cky. Cky is my initial name and my real name is Angela.<br>I love music because it heals my heart. Enjoy my performance here →
               <a href=https://www.instagram.com/ckypiano>my little insta</a>!</p>
         </div>
       </div>
@@ -82,7 +82,7 @@
 
   <style>
     .intro-section {
-      padding: 10rem 0 0;
+      padding: 5rem 0 5rem 0;
     }
 
     .intro-video {
@@ -106,7 +106,7 @@
   </style>
 
   <!-- Intro Section -->
-  <section id="intro" class="intro-section text-center">
+  <section id="intro" class="intro-section text-center bg-light performance">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-100">
@@ -122,7 +122,7 @@
               <div><img src="img/slider/F.jpg"></div>
             </div>
             
-          <h2 class="mb-4">cky's youtube</h2>
+          <h2 class="mb-4" style="padding-top: 2rem;">cky's youtube</h2>
           <p>close your eyes and enjoy!</p>
           <div class="intro-video">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/o18IrvsTWiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -130,7 +130,7 @@
             <p>close your eyes and enjoy!</p>
           </div>
 
-                    <h2 class="mb-4">cky's collabration</h2>
+                    <h2 class="mb-4" style="padding-top: 2rem">cky's collabration</h2>
                     <p>ckypiano ft. yumicorn</p>
                     <div class="intro-video">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/x6yU3kb9-EY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -140,11 +140,11 @@
   </section>
 
       <!-- Featured Project Row -->
-      <section id="intro" class="intro-section text-center" bg-light">
+      <section id="intro" class="intro-section text-center bg-light secret">
           <div class="container">
             <div class="row">
               <div class="col-lg-12 mx-auto">
-            <h2 class="mb-4">The little secret</h2>
+            <h2 class="mb-4" style="padding-top: 1.5rem;">The little secret</h2>
             <p>Do you want to know more about cky?</p>
           <img class="img-fluid mb-3 mb-lg-0" src="img/bg-child.JPG" alt="">
         </div>
@@ -317,6 +317,7 @@
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
       Copyright &copy; ckylittleworld 2019
+      <p>光復香港 時代革命 五大訴求 缺一不可 香港人 反抗</p>
     </div>
   </footer>
 
@@ -510,6 +511,19 @@
     border-bottom: 0.25rem solid #f7b79b;
   }
 }
+.intro-section.secret{
+  background-image: url('img/FFF.png') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-section.performance{
+  background-image: url('img/bg-bobo.JPG') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .masthead {
   position: relative;
@@ -601,23 +615,24 @@
 .btn-primary:active {
   background-color: #f7b79b !important;
 }
-.intro-section{
-  background-image: url('img/bg-bobo.JPG') !important;
+
+
+.about-section {
+  padding-top: 15rem;
+  background-color: #65483a;
+}
+
+.about-section p {
+  margin-bottom:15rem;
+}
+
+.intro-section {
+  background-image: url('img/bg-bobo.JPG');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-
-.about-section {
-  padding-top: 10rem;
-  background-color: #65483a;
-}
-
-.about-section p {
-  margin-bottom: 10rem;
-}
-
 .projects-section {
   padding: 10rem 0;
   margin-left: 100px; 
